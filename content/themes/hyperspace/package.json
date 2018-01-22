@@ -5,8 +5,7 @@
   "main": "index.hbs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass assets/sass/main.scss assets/css/main.css && node-sass assets/sass/ie8.scss assets/css/ie8.css node-sass assets/sass/ie9.scss assets/css/ie9.css",
-    "watch:sass": "onchange 'assets/sass/**/*' -- npm run sass"
+    "sass": "node-sass assets/sass/main.scss assets/css/main.css && node-sass assets/sass/ie8.scss assets/css/ie8.css node-sass assets/sass/ie9.scss assets/css/ie9.css"
   },
   "author": "glud",
   "keywords": [
@@ -15,7 +14,6 @@
   ],
   "license": "CC-BY-3.0",
   "devDependencies": {
-    "node-sass": "^4.7.2",
-    "onchange": "^3.3.0"
+    "node-sass": "^4.7.2"
   }
 }
