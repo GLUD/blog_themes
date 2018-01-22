@@ -1,6 +1,6 @@
 {
-    "name": "casper",
-    "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
+    "name": "Blog del GLUD",
+    "description": "Todo lo que hacemos en el grupo GNU/Linux UD está disponible aquí",
     "demo": "https://demo.ghost.io",
     "version": "2.1.8",
     "engines": {
@@ -12,9 +12,9 @@
         "mobile": "assets/screenshot-mobile.jpg"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "glud",
+        "email": "glud@udistrital.edu.co",
+        "url": "https://glud.org"
     },
     "gpm": {
         "type": "theme",
