@@ -1074,10 +1074,10 @@ h1 {
     position: relative;
     padding-bottom: 0.35em; }
     h1.major:after {
-      background-image: -moz-linear-gradient(to right, white, #b74e91);
-      background-image: -webkit-linear-gradient(to right, white, #b74e91);
-      background-image: -ms-linear-gradient(to right, white, #b74e91);
-      background-image: linear-gradient(to right, white, #b74e91);
+      background-image: -moz-linear-gradient(to right, white, #ffb700);
+      background-image: -webkit-linear-gradient(to right, white, #ffb700);
+      background-image: -ms-linear-gradient(to right, white, #ffb700);
+      background-image: linear-gradient(to right, white, #ffb700);
       -moz-transition: max-width 0.2s ease;
       -webkit-transition: max-width 0.2s ease;
       -ms-transition: max-width 0.2s ease;
@@ -1136,7 +1136,7 @@ blockquote {
   padding: 0.5em 0 0.5em 2em; }
 
 code {
-  background: #2e2e2e;
+  background: #5c5b5b;
   border-radius: 0.25em;
   border: solid 1px #2e2e2e;
   font-family: "Courier New", monospace;
@@ -1340,7 +1340,7 @@ button,
   flex-wrap: wrap;
   border-radius: 0.25em;
   border: solid 1px #2e2e2e;
-  background: #2e2e2e;
+  background: #5c5b5b;
   margin: 0 0 2em 0; }
   .features section {
     padding: 3.5em 3em 1em 7em ;
@@ -1536,7 +1536,7 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: #2e2e2e;
+  background: #5c5b5b;
   border-radius: 0.25em;
   border: none;
   border: solid 1px #2e2e2e;
@@ -1636,7 +1636,7 @@ input[type="radio"] {
       text-transform: none !important; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
-      background: #2e2e2e;
+      background: #5c5b5b;
       border-radius: 0.25em;
       border: solid 1px #2e2e2e;
       content: '';
@@ -1652,7 +1652,7 @@ input[type="radio"] {
   input[type="radio"]:checked + label:before {
     background: black;
     border-color: black;
-    color: #b74e91;
+    color: #ffb700;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
@@ -1720,9 +1720,9 @@ input[type="radio"] + label:before {
       .wrapper.style2-alt .icon.major:before {
         color: #b9c8ca; }
       .wrapper.style3 .icon.major:before {
-        color: #b74e91; }
+        color: #ffb700; }
       .wrapper.style3-alt .icon.major:before {
-        color: #953d75; }
+        color: #cc9200; }
 
 /* Image */
 .image {
@@ -2090,7 +2090,7 @@ table {
     border-left: 0;
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
-      background-color: #2e2e2e; }
+      background-color: #5c5b5b; }
   table td {
     padding: 0.75em 0.75em; }
   table th {
@@ -2145,9 +2145,9 @@ table {
   .wrapper.style2-alt {
     background-color: #b9c8ca; }
   .wrapper.style3 {
-    background-color: #b74e91; }
+    background-color: #ffb700; }
   .wrapper.style3-alt {
-    background-color: #953d75; }
+    background-color: #cc9200; }
   .wrapper.fullscreen {
     display: -moz-flex;
     display: -webkit-flex;
@@ -2328,7 +2328,8 @@ table {
   text-align: right;
   top: 0;
   width: 18em;
-  z-index: 10000; }
+  z-index: 10000;
+  box-shadow: 2px 0px 5px gray; }
   #sidebar > .inner {
     display: -moz-flex;
     display: -webkit-flex;
@@ -2501,10 +2502,10 @@ table {
     #sidebar nav a:before {
       background: white; }
     #sidebar nav a:after {
-      background-image: -moz-linear-gradient(to right, white, #b74e91);
-      background-image: -webkit-linear-gradient(to right, white, #b74e91);
-      background-image: -ms-linear-gradient(to right, white, #b74e91);
-      background-image: linear-gradient(to right, white, #b74e91);
+      background-image: -moz-linear-gradient(to right, white, #ffb700);
+      background-image: -webkit-linear-gradient(to right, white, #ffb700);
+      background-image: -ms-linear-gradient(to right, white, #ffb700);
+      background-image: linear-gradient(to right, white, #ffb700);
       -moz-transition: max-width 0.2s ease;
       -webkit-transition: max-width 0.2s ease;
       -ms-transition: max-width 0.2s ease;
@@ -2568,7 +2569,7 @@ table {
           padding: 0; }
           #sidebar nav a:after {
             background-image: none;
-            background-color: #b74e91; } }
+            background-color: #ffb700; } }
   @media screen and (max-width: 736px) {
     #sidebar {
       display: none; } }
