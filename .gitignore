@@ -1,3 +1,5 @@
 content/logs/*
 content/data/*
 .ghost*
+*.db
+*.log
