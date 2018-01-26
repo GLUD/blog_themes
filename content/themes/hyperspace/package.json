@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass assets/sass/main.scss assets/css/main.css && node-sass assets/sass/ie8.scss assets/css/ie8.css node-sass assets/sass/ie9.scss assets/css/ie9.css"
   },
-  "author": "glud",
+  "author": {
+    "name": "glud",
+    "email": "glud@udistrital.edu.co"
+  },
   "keywords": [
     "blog",
     "plantilla"
